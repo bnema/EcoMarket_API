@@ -4,7 +4,7 @@ This project is an API who use the mod Eco Live Data Exporter to read  data from
 
 
 ## Features
-- Dynamic endpoints for each data model (Owners, Stores, Offers, Items, Crafting Tables, Price History)
+- Endpoints for each data model (Owners, Stores, Offers, Items, Crafting Tables, Price History)
 - Caching the json files to redis (with short TTL) to avoid requesting the files too often
 - Mapping the data to Sequelize models
 - Pushing the data to a Postgres database
@@ -29,7 +29,7 @@ npm install
 - Setup your environment variables in a .env file (see .env.example)
 
 
-- In addition, Dockerfile is provided to build the image and deploy it easily.
+- In addition, a Dockerfile is provided to build the image and deploy it easily.
 
 ```bash
 FROM node:18

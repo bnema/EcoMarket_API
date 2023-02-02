@@ -13,7 +13,7 @@ This project is an API who use the mod Eco Live Data Exporter to read  data from
 
 ## Installation
 
-- Install the mod Eco Live Data Exporter on your Eco server [url](https://mod.io/g/eco/m/live-data-exporter)
+- Install the mod [Eco Live Data Exporter](https://mod.io/g/eco/m/live-data-exporter) on your Eco server 
 
 - Check if the mod is working by requesting the json file from your server
 
@@ -48,6 +48,7 @@ CMD ["npm", "start"]
 ## TODO
 
 - Map all existing items to the Json file (pictures, descriptions, etc.)
+- Fetch the other data models (Crafting Tables, etc.)
 - Price History logs (not working yet)
 - Crafting cost calculation
 

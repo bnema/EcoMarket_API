@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kepler62 API</title>
+    <style>
+
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 1em;
+      }
+      h1 {
+        text-align: center;
+        margin: 0;
+      }
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        margin: 0.5em 0;
+      }
+      a {
+        color: #00b8d4;
+      }
+        .warning {
+            background-color: #ffeb3b;
+            padding: 1em;
+            border-radius: 4px;
+            margin: 1em 0;
+        }
+      /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+            body {
+            background-color: #121212;
+            color: #fff;
+            }
+            a {
+            color: #00b8d4;
+            }
+            .warning {
+            background-color: #212018;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Kepler62 API</h1>
+    <h2>Available requests:</h2>
+      <ul>
+      <li><a href="/owners">GET /owners</a>: returns a list of all owners</li>
+      <li><a href="/owners/:id">GET /owners/:id</a>: returns a specific owner with the specified ID</li>
+      <li><a href="/stores">GET /stores</a>: returns a list of all stores</li>
+      <li><a href="/stores/:id">GET /stores/:id</a>: returns a specific store with the specified ID</li>
+      <li><a href="/offers">GET /offers</a>: returns a list of all offers</li>
+      <li><a href="/offers/:id">GET /offers/:id</a>: returns a specific offer with the specified ID</li>
+      <li><a href="/items">GET /items</a>: returns a list of all items</li>
+      <li><a href="/items/:id">GET /items/:id</a>: returns a specific item with the specified ID</li>
+      <li><a href="/craftingtables">GET /craftingtables</a>: returns a list of all crafting tables</li>
+      <li><a href="/craftingtables/:id">GET /craftingtables/:id</a>: returns a specific crafting table with the specified ID</li>
+      <li><a href="/pricehistory">GET /pricehistory</a>: returns a list of all price history</li>
+        <li><a href="/pricehistory/:id">GET /pricehistory/:id</a>: returns a specific price history by the offerId</li>
+    </ul>
+        </body>
+      </html>

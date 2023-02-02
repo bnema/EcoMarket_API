@@ -1,0 +1,28 @@
+{
+  "name": "eco-market-api",
+  "version": "0.0.2",
+  "description": "Eco - Market - API Endpoints for cool requests",
+  "type": "module",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "latest",
+    "esm": "^3.2.25",
+    "express": "latest",
+    "fs": "latest",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^3.3.0",
+    "path": "latest",
+    "pg": "^8.8.0",
+    "redis": "latest",
+    "sequelize": "^6.27.0"
+  },
+  "scripts": {
+    "sync": "node ./src/models/AllModels.js sync --force",
+    "start": "node --experimental-modules app.js",
+    "dev": "nodemon --experimental-modules app.js"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}

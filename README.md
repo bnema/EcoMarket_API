@@ -5,7 +5,7 @@ This project is an API who use the mod Eco Live Data Exporter to read  data from
 
 ## Features
 - Endpoints for each data model (Owners, Stores, Offers, Items, Crafting Tables, Price History)
-- Caching the json files to redis (with short TTL) to avoid requesting the files too often
+- Caching the json files to redis (with short TTL) to avoid requesting the files too often (This part is optional)
 - Mapping the data to Sequelize models
 - Pushing the data to a Postgres database
 - Logging of incoming requests

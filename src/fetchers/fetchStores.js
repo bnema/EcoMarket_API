@@ -23,7 +23,7 @@ import { Owner, Store, Offer, PriceHistory } from '../models/AllModels.js';
 import { fetchItems, fetchCraftingTables, linkItems } from './fetchAllItems.js';
 
 // URL of the data
-const storesURL = 'https://game.kepler62.world/data/Stores.json';
+const storesURL = process.env.STORES_URL;
 
 const handleError = (error) => {
   // If the error is a SequelizeUniqueConstraintError, then the entry already exists in the database

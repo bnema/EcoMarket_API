@@ -8,5 +8,3 @@ COPY . .
 
 # CMD a curl to postgres_container on port 5432 and then run the app
 CMD ["npm", "start"]
-
-# Path: docker-compose.yml

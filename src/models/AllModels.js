@@ -1,4 +1,4 @@
-// This is the models for my database
+// @ src/models/AllModels.js
 import { Sequelize, Model, DataTypes } from 'sequelize';
 import dotenv from 'dotenv';
 dotenv.config();
